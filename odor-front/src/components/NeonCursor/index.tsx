@@ -1,11 +1,11 @@
 // @ts-nocheck
+
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
 import { motion, useAnimation } from "framer-motion";
 
 import "./NeonCursor.css";
-
 
 const NeonCursor = () => {
   const [position, setPosition] = useState({
